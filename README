@@ -1,0 +1,33 @@
+# FIFA World Cup 2026 Prediction
+
+Proyecto de análisis de datos que busca predecir el ganador del Mundial 2026 usando datos históricos, machine learning y simulaciones.
+
+## Objetivo
+Construir un modelo capaz de:
+- Predecir resultados de partidos internacionales
+- Estimar fuerzas reales de selecciones usando Elo Rating
+- Simular escenarios del Mundial 2026
+
+## Estado del proyecto
+
+En desarrollo
+- Estructura del repositorio creada  
+- Entorno de trabajo configurado  
+- Carga y limpieza de datasets históricos  
+- Implementación de sistema Elo  
+- Generación de dataset listo para machine learning
+
+## Metodología
+- Limpieza y unificación de datos históricos
+- Construcción de rating Elo dinámico
+- Feature engineering basado en fuerza de equipos
+- Preparación de datasets para machine learning
+
+## Tecnologías
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- RapidFuzz
+- Jupyter Notebook
