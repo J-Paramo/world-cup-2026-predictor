@@ -4,24 +4,14 @@ Proyecto de análisis de datos que busca predecir el ganador del Mundial 2026 us
 
 ## Objetivo
 Construir un modelo capaz de:
-- Predecir resultados de partidos internacionales
 - Estimar fuerzas reales de selecciones usando Elo Rating
 - Simular escenarios del Mundial 2026
 
 ## Estado del proyecto
 
 En desarrollo
-- Estructura del repositorio creada  
-- Entorno de trabajo configurado  
-- Carga y limpieza de datasets históricos  
-- Implementación de sistema Elo  
-- Generación de dataset listo para machine learning
 
 ## Metodología
-- Limpieza y unificación de datos históricos
-- Construcción de rating Elo dinámico
-- Feature engineering basado en fuerza de equipos
-- Preparación de datasets para machine learning
 
 ## Tecnologías
 
@@ -30,4 +20,6 @@ En desarrollo
 - NumPy
 - Scikit-learn
 - RapidFuzz
+- Requests
+- BeautifulSoup
 - Jupyter Notebook
