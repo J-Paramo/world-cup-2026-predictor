@@ -72,6 +72,23 @@ def load_css():
         font-weight: 500;
     }
 
+    .stApp, .stApp * {
+        color: #0f172a !important;
+    }
+    
+    div[data-testid="metric-container"] {
+        color: #0f172a !important;
+    }
+    
+    div[data-testid="metric-container"] label,
+    div[data-testid="metric-container"] [data-testid="stMetricValue"] {
+        color: #0f172a !important;
+    }
+    
+    .stMarkdown, .stMarkdown p {
+        color: #0f172a !important;
+    }
+
     html {
         -webkit-text-size-adjust: 100%;
     }
