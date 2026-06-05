@@ -45,6 +45,7 @@ Construir un sistema capaz de:
 - NumPy
 - Scikit-learn
 - RapidFuzz
+- Joblib
 - Jupyter Notebook
 
 ## Dataset
