@@ -72,15 +72,18 @@ def load_css():
         font-weight: 500;
     }
 
-    .stApp, .stApp * {
+    .stMarkdown, .stMarkdown p,
+    h1, h2, h3,
+    label {
         color: #0f172a !important;
     }
 
-    div[data-baseweb="select"] * {
+    div[data-baseweb="select"] input {
         color: #0f172a !important;
+        -webkit-text-fill-color: #0f172a !important;
     }
     
-    div[data-testid="metric-container"] {
+    div[data-baseweb="select"] * {
         color: #0f172a !important;
     }
     
@@ -89,9 +92,6 @@ def load_css():
         color: #0f172a !important;
     }
     
-    .stMarkdown, .stMarkdown p, h1, h2, h3 {
-        color: #0f172a !important;
-    }
 
     html {
         -webkit-text-size-adjust: 100%;
