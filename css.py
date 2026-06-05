@@ -71,12 +71,6 @@ def load_css():
         color: #334155 !important;
         font-weight: 500;
     }
-
-    .stMarkdown p,
-    .stMarkdown,
-    h1, h2, h3 {
-        color: #0f172a !important;
-    }
     
     div[data-testid="metric-container"] {
         color: #0f172a !important;
