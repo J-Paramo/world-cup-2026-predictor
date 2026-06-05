@@ -26,7 +26,7 @@ La aplicación permite predecir el resultado de un partido entre dos selecciones
 
 ## 🚀 Demo en vivo
 
-[![Abrir app](https://world-cup-2026-predictor-iwqgg7em6hngzhtlsd2zjc.streamlit.app/)
+[![Abrir app](https://img.shields.io/badge/Abrir%20App-Streamlit-red)](https://world-cup-2026-predictor-iwqgg7em6hngzhtlsd2zjc.streamlit.app/)
     
 ## Dataset
 
