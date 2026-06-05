@@ -23,6 +23,10 @@ La aplicación permite predecir el resultado de un partido entre dos selecciones
   - Probabilidad de victoria del equipo local
   - Probabilidad de empate
   - Probabilidad de victoria del equipo visitante
+
+## 🚀 Demo en vivo
+
+[![Abrir app](https://world-cup-2026-predictor-iwqgg7em6hngzhtlsd2zjc.streamlit.app/)
     
 ## Dataset
 
