@@ -1,50 +1,60 @@
-﻿team_key,team_name
-Canada, Canadá
-Mexico, México
-United States, Estados Unidos
-Argentina, Argentina
-Brazil, Brasil
-Uruguay, Uruguay
-Colombia, Colombia
-Ecuador, Ecuador
-Paraguay, Paraguay
-Venezuela, Venezuela
-Peru, Perú
-Chile, Chile
-France, Francia
-England, Inglaterra
-Spain, España
-Germany, Alemania
-Portugal, Portugal
-Netherlands, Países Bajos
-Belgium, Bélgica
-Italy, Italia
-Croatia, Croacia
-Denmark, Dinamarca
-Switzerland, Suiza
-Austria, Austria
-Poland, Polonia
-Ukraine, Ucrania
-Scotland, Escocia
-Serbia, Serbia
-Morocco, Marruecos
-Senegal, Senegal
-Nigeria, Nigeria
-Egypt, Egipto
-Algeria, Argelia
-Tunisia, Túnez
-South Africa, Sudáfrica
-Ghana, Ghana
-Cameroon, Camerún
-Côte d'Ivoire, Costa de Marfil
-DR Congo, República Democrática del Congo
-Japan, Japón
-South Korea, Corea del Sur
-Iran, Irán
-Saudi Arabia, Arabia Saudita
-Australia, Australia
-Qatar, Catar
-Iraq, Irak
-Uzbekistan, Uzbekistán
-New Zealand, Nueva Zelanda
-Czechoslovakia,Chequia
+﻿team_key,team_name,,
+Canada, Canadá,,
+Mexico, México,,
+United States, Estados Unidos,,
+Argentina, Argentina,,
+Brazil, Brasil,,
+Uruguay, Uruguay,,
+Colombia, Colombia,,
+Ecuador, Ecuador,,
+Paraguay, Paraguay,,
+Venezuela, Venezuela,,
+Peru, Perú,,
+Chile, Chile,,
+France, Francia,,
+England, Inglaterra,,
+Spain, España,,
+Germany, Alemania,,
+Portugal, Portugal,,
+Netherlands, Paises Bajos,,
+Belgium, Bélgica,,
+Italy, Italia,,
+Croatia, Croacia,,
+Denmark, Dinamarca,,
+Sweden,Suecia,,
+Switzerland, Suiza,,
+Austria, Austria,,
+Poland, Polonia,,
+Ukraine, Ucrania,,
+Scotland, Escocia,,
+Serbia, Serbia,,
+Morocco, Marruecos,,
+Senegal, Senegal,,
+Bosnia and Herzegovina,Bosnia y Herzegovia,,
+Turkey,Turquia,,
+Curaçao,Curazao,,
+Nigeria, Nigeria,,
+Egypt, Egipto,,
+Algeria, Argelia,,
+Panama,Panamá,,
+Norway,Noruega,,
+Jordan,Jordania,,
+Haiti,Haiti,,
+Tunisia, Túnez,,
+South Africa, Sudáfrica,,
+Ghana, Ghana,,
+Cameroon, Camerún,,
+Côte d'Ivoire, Costa de Marfil,,
+DR Congo, República Democrática del Congo,,
+Japan, Japón,,
+Cape Verde,Islas de cabo verde,,
+South Korea, Corea del Sur,,
+Iran, Irán,,
+Saudi Arabia, Arabia Saudita,,
+Australia, Australia,,
+Qatar, Catar,,
+Iraq, Irak,,
+Uzbekistan, Uzbekistán,,
+New Zealand, Nueva Zelanda,,
+Czechoslovakia,Chequia,,
+Tunisia,Túnez,,
