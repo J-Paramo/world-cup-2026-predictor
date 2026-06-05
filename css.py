@@ -21,7 +21,7 @@ def load_css():
         text-align: center;
         font-size: 38px;
         font-weight: 800;
-        color: #0f172a;
+        color: #0f172a !important;
         margin-bottom: 5px;
         letter-spacing: -0.5px;
     }
@@ -70,6 +70,10 @@ def load_css():
     label {
         color: #334155 !important;
         font-weight: 500;
+    }
+
+    html {
+        -webkit-text-size-adjust: 100%;
     }
 
     </style>
