@@ -83,8 +83,16 @@ def load_css():
         -webkit-text-fill-color: #0f172a !important;
     }
     
-    div[data-testid="metric-container"] label,
-    div[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    .stMarkdown,
+    .stMarkdown p,
+    .stText,
+    p,
+    span {
+        color: #0f172a !important;
+    }
+    
+    div[data-testid="metric-container"],
+    div[data-testid="metric-container"] * {
         color: #0f172a !important;
     }
     
