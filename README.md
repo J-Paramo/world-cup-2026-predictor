@@ -13,15 +13,17 @@ Construir un sistema que permita:
 
 ## Demo de la App
 
-En la aplicación el usuario puede:
+La aplicación permite predecir el resultado de un partido entre dos selecciones:
 
-- Seleccionar Equipo Local
-- Seleccionar Equipo Visitante
-- Obtener predicción:
-🟢 Probabilidad de victoria local
-⚪ Empate
-🔴 Victoria visitante
+- Entrada:
+  - Equipo local
+  - Equipo visitante
 
+- Salida:
+  - Probabilidad de victoria del equipo local
+  - Probabilidad de empate
+  - Probabilidad de victoria del equipo visitante
+    
 ## Dataset
 
 - Más de 47,000 partidos internacionales (1872–2024)
