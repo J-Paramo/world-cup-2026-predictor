@@ -3,10 +3,24 @@
 Proyecto de análisis de datos que busca predecir el ganador del Mundial 2026 usando datos históricos, machine learning y simulaciones.
 
 ## Objetivo
-Construir un sistema capaz de:
-- Estimar la fuerza real de selecciones nacionales usando **Elo Rating**
-- Simular escenarios del **FIFA World Cup 2026**
-- Evaluar modelos de machine learning sobre datos históricos
+
+Construir un sistema que permita:
+
+- Estimar la fuerza real de selecciones nacionales mediante Elo Ratings dinámicos
+- Predecir el resultado de un partido ingresando dos equipos
+- Simular enfrentamientos del FIFA World Cup 2026
+- Comparar desempeño de modelos de Machine Learning vs baseline Elo
+
+## Demo de la App
+
+En la aplicación el usuario puede:
+
+- Seleccionar Equipo Local
+- Seleccionar Equipo Visitante
+- Obtener predicción:
+🟢 Probabilidad de victoria local
+⚪ Empate
+🔴 Victoria visitante
 
 ## Dataset
 
@@ -19,24 +33,30 @@ Construir un sistema capaz de:
 
 ## Metodología
 
-- Construcción de **Elo Ratings dinámicos**
-- Feature engineering:
-  - Forma reciente de equipos
-  - Diferencia de Elo
-  - Tipo de torneo
-- Modelos de Machine Learning:
+- **Elo Rating System**
+  - Cálculo dinámico de fuerza de cada selección
+  - Ajustado por:
+    - Importancia del partido
+    - Diferencia de goles
+    - Tipo de torneo
+
+- **Feature Engineering**
+  - Diferencia de Elo entre equipos
+  - Forma reciente
+  - Tipo de partido
+
+- **Modelos utilizados**
   - Logistic Regression (baseline)
-- Evaluación con:
+  - Comparación con sistema Elo clásico
+
+- **Evaluación**
   - Accuracy
   - Log Loss
-  - Comparación vs baseline Elo
+  - Comparación contra baseline
 
-## Estado del proyecto
+## Aplicación Web (Streamlit)
 
-✔ Dataset procesado  
-✔ Sistema de Elo implementado  
-✔ Primer modelo de ML entrenado  
-✔ Pipeline de predicción funcional  
+La app permite ingresar dos equipos y obtener una predicción en tiempo real usando un modelo entrenado previamente.
 
 ## Tecnologías
 
@@ -46,6 +66,7 @@ Construir un sistema capaz de:
 - Scikit-learn
 - RapidFuzz
 - Joblib
+- Streamlit
 - Jupyter Notebook
 
 ## Dataset
