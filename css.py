@@ -72,7 +72,9 @@ def load_css():
         font-weight: 500;
     }
 
-    .stApp, .stApp * {
+    .stMarkdown p,
+    .stMarkdown,
+    h1, h2, h3 {
         color: #0f172a !important;
     }
     
