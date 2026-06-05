@@ -72,10 +72,6 @@ def load_css():
         font-weight: 500;
     }
 
-    .stApp, .stApp * {
-        color: #0f172a !important;
-    }
-
     div[data-baseweb="select"] * {
         color: #0f172a !important;
     }
@@ -89,7 +85,7 @@ def load_css():
         color: #0f172a !important;
     }
     
-    .stMarkdown, .stMarkdown p {
+    .stMarkdown, .stMarkdown p, h1, h2, h3 {
         color: #0f172a !important;
     }
 
