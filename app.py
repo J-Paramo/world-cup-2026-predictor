@@ -16,15 +16,6 @@ st.caption("Simulación basada en ELO + ML")
 # styles.py
 st.markdown(load_css(), unsafe_allow_html=True)
 
-st.markdown(
-    """
-    <div class="footer">
-        © 2026 · By Jennifer Páramo
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 model = joblib.load("models/model.pkl")
 scaler = joblib.load("models/scaler.pkl")
 feature_cols = joblib.load("models/features.pkl")
@@ -83,3 +74,13 @@ if st.button("Predecir"):
     col1.metric(f"{display_dict.get(team_a, team_a)} gana", f"{team_a_win*100:.1f}%")
     col2.metric("Empate", f"{draw*100:.1f}%")
     col3.metric(f"{display_dict.get(team_b, team_b)} gana", f"{team_b_win*100:.1f}%")
+
+
+st.markdown(
+    """
+    <div class="footer">
+        © 2026 · By Jennifer Páramo
+    </div>
+    """,
+    unsafe_allow_html=True
+)
