@@ -101,5 +101,13 @@ def load_css():
         -webkit-text-size-adjust: 100%;
     }
 
+    .footer {
+        text-align: center;
+        color: #64748b;
+        font-size: 12px;
+        margin-top: 25px;
+        padding-top: 10px;
+    }
+
     </style>
     """

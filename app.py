@@ -16,6 +16,15 @@ st.caption("Simulación basada en ELO + ML")
 # styles.py
 st.markdown(load_css(), unsafe_allow_html=True)
 
+st.markdown(
+    """
+    <div class="footer">
+        © 2026 · By Jennifer Páramo
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 model = joblib.load("models/model.pkl")
 scaler = joblib.load("models/scaler.pkl")
 feature_cols = joblib.load("models/features.pkl")
